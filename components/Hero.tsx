@@ -12,12 +12,12 @@ function Hero() {
           className="object-contain"
         />
         <h1 className="sm:text-6xl text-5xl text-black lg:max-w-lg font-bold leading-[120%]">
-          Explore The <span className="red-gradient">Diverse Realms</span> of
+          Discover The <span className="red-gradient">Diverse Realms</span> of
           Anime Magic
         </h1>
       </div>
-      <div className="lg:flex-1 relative w-full h-[50vh] justify-center">
-        <Image src="/bg.png" alt="anime" fill className="object-contain bg-transparent" />
+      <div className="lg:flex-1 relative w-full h-[50vh] justify-center border-2 rounded-3xl">
+        <Image src="/anime-bg-dark.png" alt="anime" fill className="object-contain" />
       </div>
     </header>
   );
